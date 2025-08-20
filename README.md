@@ -1,6 +1,8 @@
 # Michael Chen github.io site
 
-Simple React.js personal website to host my resume and associated information. 
+Simple React.js personal website to host my resume and associated information on github pages. 
+
+Source code is hosted on the `source` branch. Deploy by executing the `deploy.sh` bash script, which builds the React app and then pushes the build to `main` branch.
 
 # React + Vite
 
