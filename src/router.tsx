@@ -1,12 +1,12 @@
 import React from "react"
 import { Routes, Route } from "react-router-dom"
 import About from "./pages/About"
-import Resume from "./pages/Resume"
+import Projects from "./pages/Projects"
 
 const AppRouter: React.FC = () => (
   <Routes>
     <Route path="/" element={<About />} />
-    <Route path="/resume" element={<Resume />} />
+    <Route path="/projects" element={<Projects />} />
   </Routes>
 )
 
